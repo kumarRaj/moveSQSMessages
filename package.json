@@ -1,5 +1,30 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.3.16"
-  }
+    "aws-sdk": "^2.3.16",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "name": "sqs",
+  "description": "Copy sqs messages from one queue to another",
+  "version": "1.0.0",
+  "main": "moveSqsMessages.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarRaj/moveSQSMessages.git"
+  },
+  "keywords": [
+    "aws",
+    "sqs",
+    "queue"
+  ],
+  "author": "Raj Kumar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kumarRaj/moveSQSMessages/issues"
+  },
+  "homepage": "https://github.com/kumarRaj/moveSQSMessages#readme"
 }
